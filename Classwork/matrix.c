@@ -15,5 +15,12 @@ int main() {
             scanf("%d", &matrix[i][j]);
             }
     }
-    
+    printf("The matrix is:\n");
+    for(i = 0; i < rows; i++) {
+        for(j = 0; j < cols; j++) {
+            printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
 }

@@ -1,4 +1,12 @@
+#include <stdio.h>
 
+void main () {
+
+    // Assignment 02
+    // Program to implement basic menu driven arithmetic calculator
+
+    int choice;
+    float num1, num2, result;
 
     printf("Select an operation to perform:\n");
     printf("1. Addition\n");

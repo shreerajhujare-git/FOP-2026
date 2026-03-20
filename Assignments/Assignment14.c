@@ -1,7 +1,7 @@
 // this program is to convert binary into decimal number system
 #include <stdio.h>
 #include <math.h>
-int main() {
+void main() {
    
     int binary, decimal = 0, rem, i = 0;
     printf("Enter a binary number: ");
@@ -13,5 +13,5 @@ int main() {
         i++;
     }
     printf("Decimal equivalent: %d\n", decimal);
-    return 0;
+   
 }
